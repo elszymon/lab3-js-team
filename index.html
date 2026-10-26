@@ -136,8 +136,15 @@
 				<div id="skrypty">
 					<h3>Zadanie 1 – ładowanie skryptów</h3>
 					<!-- Osoba A: kod zadania 1 -->
-					<script src="js/Szymon.js" async></script>
-					<script src="js/powitanie.js" async></script>
+					<script src="js/Szymon.js" defer></script>
+					<script src="js/powitanie.js" defer></script>
+					<p>
+					Trzy warianty ładowania skryptów (zwykły, async i defer) różnią się 
+					stopniem blokowania strony oraz momentem i kolejnością wykonania kodu.
+					Wariant standardowy blokuje parsowanie HTML, async wykonuje się natychmiast 
+					po pobraniu bez synchronizacji i kolejności, natomiast defer czeka z wykonaniem 
+					do zakończenia parsowania dokumentu, zachowując kolejność skryptów.
+					</p>
 
 				</div>
 				<div id="tablice">
