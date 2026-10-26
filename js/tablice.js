@@ -19,3 +19,9 @@ console.log(jedzenie.length)
 
 
 //Pokazało undefined
+
+const nowaDlugosc = jedzenie.unshift('nowy12', 'nowy13');
+console.log(nowaDlugosc);
+
+document.write('<p>Tablica: ' + jedzenie.join(', ') + ' (elementów: ' + jedzenie.length + ')</p>');
+document.write('<p>Czy tablica zawiera "Film A"? ' + jedzenie.includes('Film A') + ', pozycja: ' + jedzenie.indexOf('Film A') + '</p>');
