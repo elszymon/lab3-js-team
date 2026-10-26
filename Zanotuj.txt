@@ -1,0 +1,21 @@
+Zanotuj: 
+1.
+(a) co widać na stronie w chwili, gdy pojawia się okno prompt, 
+Biała strona
+(b) gdziewyświetliło się powitanie, 
+Na środku strony , pod url
+(c) co wypisała konsola przy element #quiz. Commit:
+Zadanie 1: skrypty bez atrybutu.
+imie.js: start
+Szymon.js:2 imie.js: element #quiz = null
+powitanie.js:1 powitanie.js: start
+
+2. defer
+(a) co widać na stronie w chwili, gdy pojawia się okno prompt, 
+Stornę z zadania bez skryptu
+(b) gdziewyświetliło się powitanie, 
+Na środku strony , pod url
+(c) co wypisała konsola przy element #quiz. Commit:
+
+powitanie.js:2 Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened.
+(anonymous) @ powitanie.js:2
