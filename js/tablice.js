@@ -24,8 +24,10 @@ const programowanie = [
   'Rust'
 ];
 document.write('<p>Pierwszy element to <strong>');
-document.write(nowaTablica[0] + '</strong></p>');
+document.write(programowanie[0] + '</strong></p>');
 document.write('<p>Ostatni element to <strong>');
-document.write(nowaTablica[nowaTablica.length - 1] + '</strong></p>');
+document.write(programowanie[programowanie.length - 1] + '</strong></p>');
+nowaTablica.unshift('TypeScript');
+document.write('<p>Po unshift pierwszy element to <strong>' + programowanie[0] + '</strong></p>');
 
 //Pokazało undefined
