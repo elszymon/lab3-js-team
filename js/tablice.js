@@ -36,6 +36,13 @@ const usunietyShift = programowanie.shift();
 document.write('<p>Usunięto pop(): ' + usunietyPop + ', shift(): ' + usunietyShift + '</p>');
 document.write('<p>W tablicy zostało: ' + programowanie.join(', ') + '</p>');
 
+//Pokazało undefined
+
+const nowaDlugosc = jedzenie.unshift('nowy12', 'nowy13');
+console.log(nowaDlugosc);
+
+document.write('<p>Tablica: ' + jedzenie.join(', ') + ' (elementów: ' + jedzenie.length + ')</p>');
+document.write('<p>Czy tablica zawiera "Film A"? ' + jedzenie.includes('Film A') + ', pozycja: ' + jedzenie.indexOf('Film A') + '</p>');
 const oceny = [
   ['JavaScript', 5],
   ['Git', 4],
