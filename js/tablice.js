@@ -29,5 +29,6 @@ document.write('<p>Ostatni element to <strong>');
 document.write(programowanie[programowanie.length - 1] + '</strong></p>');
 nowaTablica.unshift('TypeScript');
 document.write('<p>Po unshift pierwszy element to <strong>' + programowanie[0] + '</strong></p>');
-
+   programowanie.unshift('TypeScript');
+   document.write('<p>Po unshift pierwszy element to <strong>' + programowanie[0] + '</strong></p>');
 //Pokazało undefined
